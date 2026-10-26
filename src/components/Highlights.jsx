@@ -17,13 +17,13 @@ function Highlights () {
                 <div className="grid grid-cols-2 gap-8 mb-16 ">
                     <div className="bg-gray-900 rounded-3xl p-8">
                         <img className="w-full rounded-2xl mb-4" src={`${import.meta.env.BASE_URL}img/titanium-design.jpg`} alt="" />
-                        <h3 className="font-bold mb-2 text-3xl"> Titanio Premium</h3>
+                        <h3 className="font-bold mb-2 md:text-3xl text-2xl"> Titanio Premium</h3>
                         <p className="text-gray-300">Estrutura em titanio de grau aeroespacial. O smartphone msi forte e leve.</p>
                     </div>
                     
                     <div className="bg-gray-900 rounded-3xl p-8">
                         <img className="w-full rounded-2xl mb-4" src={`${import.meta.env.BASE_URL}img/ios-features.jpg`} alt="" />
-                        <h3 className="font-bold mb-2 text-3xl"> iOS 26</h3>
+                        <h3 className="font-bold mb-2 md:text-3xl text-2xl"> iOS 26</h3>
                         <p className="text-gray-300">Sistema operacional mais avançado do mundo com IA integrada.</p>
                     </div>
                 </div>
