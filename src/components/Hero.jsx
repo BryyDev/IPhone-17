@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section className="hidden relative h-screen overflow-hidden bg-black md:block">
       <div className=" absolute inset-0 z-0">
-        <img src="../../public/img/hero.jpg" alt="" className="hidden sm:block w-full h-full object-center opacity-90 " />
+        <img src={`${import.meta.env.BASE_URL}img/hero.jpg`} alt="" className="hidden sm:block w-full h-full object-center opacity-90 " />
         <div className=" absolute inset-0 bg-linear-to-b from-black/30 via-transparent to-black z-10"></div>
       </div>
 
